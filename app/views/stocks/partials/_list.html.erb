@@ -12,7 +12,7 @@
       <tbody>
         <% @tracked_stocks.each do |stock| %>
           <tr>
-            <th scope="row"><%= stock.ticker %></th>
+            <th scope="row"><%= stock.ticker.upcase %></th>
             <td><%= stock.name %></td>
             <td><%= stock.last_price %></td>
             <td>Action Placeholder</td>
