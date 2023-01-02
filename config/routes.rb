@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   get "my_friends", to: "users#my_friends"
   get "search_friend", to: 'users#search'
   resources :friendships, only: [:create, :destroy]
+  # already got lots of user routes from devise so specify only: :show
+  resources :users, only: [:show]
 
   devise_scope :user do
     get 'login', to: 'devise/sessions#new'
