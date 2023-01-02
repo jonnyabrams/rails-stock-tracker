@@ -7,6 +7,10 @@ class UsersController < ApplicationController
     @friends = current_user.friends
   end
 
+  def show
+    @user = User.find(params[:id])
+  end
+
   def search
     if params[:friend].present?
       @friends = User.search(params[:friend])
