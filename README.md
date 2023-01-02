@@ -1,24 +1,3 @@
-# README
+# Take Stock
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+A stock tracker social media app using Ruby on Rails 6 and  Bootstrap 4. Users can sign up, sign in, track stocks from an external API, follow/unfollow other users and see their profiles, which contains a list of the stocks they're tracking.
